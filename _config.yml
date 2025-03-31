@@ -1,17 +1,10 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title: UHo Eidolon
+email: barnesound@gmail.com
+author: Carlos Luis Barnés Infante
+phone: +53 5 369125
+bank_iban: 9224 0699 9886 3266
+telegram-channel: uhoeidolon
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,17 +15,22 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  GitHub: https://github.com/blacknoize404
 
 # build settings
 markdown: kramdown
+
+# Feature List                            Edit, add or remove features to be presented.
+templates:
+  - title: Es bastante intuitivo y rápido.
+    description: Ha sido desarrollada enfocándose hasta en el más mínimo detalle de falta de rendimiento.
+    link: tachometer-alt
+    bg-image: image.jpg
+
+# Theme Settings
+color-primary: "#222e58"
+color-secondary: "#92b921"
+topbar-transparency: 0.1
 
 sass:
   style: compressed
